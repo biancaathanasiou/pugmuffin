@@ -13,6 +13,10 @@
 
   <meta name= "viewport" content="width=device-width, initial-scale=1.0">
 
+
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />`
+
+
 <SCRIPT LANGUAGE="JavaScript">
 
 
@@ -37,7 +41,7 @@ for (i = 0; i < p; i++){
    preBuffer[i] = new Image()
    preBuffer[i].src = theImages[i]
 }
-var whichImage = Math.round(Math.random()*(p-1));
+var whichImage = Math.round(Math.random()*(p-2));
 function showImage(){
 document.write('<img src="'+theImages[whichImage]+'">');
 }
@@ -50,27 +54,27 @@ document.write('<img src="'+theImages[whichImage]+'">');
 
 
 var themages = new Array(10) 
- themages[0] = 'images/pug3.png'
- themages[1] = 'images/pug4.jpg'
- themages[2] = 'images/pug1.png'
- themages[3] = 'images/pug2.jpg'
- themages[4] = 'images/pug6.jpg'
- themages[5] = 'images/pug7.jpg'
- themages[6] = 'images/pug5.jpg'
- themages[7] = 'images/pug9.jpg'
- themages[8] = 'images/pug8.jpg'
- themages[9] = 'images/pug10.jpeg'
+ themages[0] = 'images/muffin1.jpg'
+ themages[1] = 'images/muffin2.jpg'
+ themages[2] = 'images/muffin3.jpg'
+ themages[3] = 'images/muffin4.jpg'
+ themages[4] = 'images/muffin5.jpeg'
+ themages[5] = 'images/muffin6.jpg'
+ themages[6] = 'images/muffin7.png'
+ themages[7] = 'images/muffin8.jpg'
+ themages[8] = 'images/muffin9.jpg'
+ themages[9] = 'images/muffin10.jpg'
 
 
-var j = 0
-var p = themages.length;
+var k = 0
+var o = themages.length;
 var preBuffer = new Array()
-for (i = 0; i < p; i++){
-   preBuffer[i] = new Image()
-   preBuffer[i].src = themages[i]
+for (j = 0; j < o; j++){
+   preBuffer[j] = new Image()
+   preBuffer[j].src = themages[j]
 }
-var whichImage = Math.round(Math.random()*(p-1));
-function showImage(){
+var whichImage = Math.round(Math.random()*(o-1));
+function showImage1(){
 document.write('<img src="'+themages[whichImage]+'">');
 }
 
@@ -130,7 +134,8 @@ document.write('<img src="'+themages[whichImage]+'">');
 
 <SCRIPT LANGUAGE="JavaScript">
 
-showImage();
+showImage(); 
+
 </script>
 
 
@@ -145,11 +150,14 @@ showImage();
 
 <div class='col-sm-5'>
 
-
 <SCRIPT LANGUAGE="JavaScript">
 
-showImage();
+showImage1(); 
+
 </script>
+
+
+
 
 </div>
 </div>

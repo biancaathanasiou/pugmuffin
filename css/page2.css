@@ -1,3 +1,4 @@
+
 #title h1 {
 	text-align: center;
 }
@@ -15,9 +16,11 @@
 .twopictures {
 	text-align: center;
 	margin-top: 50px;
+	margin-bottom: 250px;
 }
 
 #plus {
 margin-top: 150px;
+margin-bottom: 150px;
 }
 
